@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sujan Foundation </title>
+	    <link rel="stylesheet" type="text/css" href="css/demo.css" />
+        <link rel="stylesheet" type="text/css" href="css/style2.css" />
+		<link rel="stylesheet" type="text/css" href="css/animate-custom.css" />	
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+	@media only screen and (max-width:800px) {
+	  /* For tablets: */
+	   .container {
+	    width: 80%;
+	    padding: 0;
+	  }
+	  .container_demo {
+	    width: 80%;
+	    padding: 0;
+	  }
+	  .hiddenanchor {
+	    width: 100%;
+	    padding: 0;
+	  }
+	  .wrapper{
+	    width: 100%;
+	    padding: 0;
+	  }
+	  .login {
+	    width: 100%;
+	    padding: 0;
+	  }
+	   .register {
+	    width: 100%;
+	    padding: 0;
+	  }
+	  .toregister {
+	    width: 100%;
+	    padding: 0;
+	  }
+	  .tologin {
+	    width: 100%;
+	    padding: 0;
+	  }
+	@media only screen and (max-width:500px) {
+	  /* For mobile phones: */
+	  .container, .container_demo, .hiddenanchor, .wrapper, .login, .register,.toregister, {
+	    width: 100%;
+	  }
+	</style>
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.dropbtn {
+  background-color: #4CAF50;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}
+</style>
+</head>
+<body>
+
+<div class="dropdown">
+  <button class="dropbtn">Go Back</button>
+  <div class="dropdown-content">
+    <a class="active" href="index.html">Home</a>
+    <a href="Gallery.html">Gallery</a>
+	<a href="event.html">Events</a>
+	<a href="Partners.html">Partners</a>
+	<a href="Feedback.html">Feedback</a>
+	<a href="project-program.html">Projects and Programs</a>
+	<a href="what-we-do.html">What we do?</a>
+	<a href="mission-vision.html">Mission & Vision</a>
+	<a href="Our-Team.html">Our Team</a>
+    <a href="Contact-us.html">Contact</a>
+  </div>
+</div>
+
+</head>
+<body style="background-image:url('images/backgrounds/lol.jpg');">
+
+	 <div class="container" >  
+	 <br><br>   
+            <section >				
+                <div id="container_demo" >
+                    <!-- hidden anchor to stop jump http://www.css3create.com/Astuce-Empecher-le-scroll-avec-l-utilisation-de-target#wrap4  -->
+                    <a class="hiddenanchor" id="toregister"></a>
+                    <a class="hiddenanchor" id="tologin"></a>
+                    <div id="wrapper" >
+                        <div id="login" class="animate form" style="background-image:url('images/backgrounds/pool.jpg');">
+                            <form  action="mysuperscript.php" autocomplete="on" > 
+                                <h1  style="color:lightgrey;">Welcome Back!</h1> 
+                                <p> 
+                                    <label for="username" class="uname" data-icon="u"  style="color:lightgrey;"> Your email or username </label>
+                                    <input id="username" name="username" required="required" type="text" placeholder="myusername or mymail@mail.com"/>
+                                </p>
+                                <p> 
+                                    <label for="password" class="youpasswd" data-icon="p"  style="color:lightgrey;"> Your password </label>
+                                    <input id="password" name="password" required="required" type="password" placeholder="eg. X8df!90EO" /> 
+                                </p>
+                                <p class="keeplogin"> 
+									<input type="checkbox" name="loginkeeping" id="loginkeeping" value="loginkeeping" /> 
+									<label for="loginkeeping"  style="color:lightgrey;">Keep me logged in</label>
+								</p>
+                                <p class="login button"> 
+                                    <input type="submit" value="Login" /> 
+								</p>
+                                <p class="change_link" >
+									Not a member yet ?
+									<a href="#toregister" class="to_register">Join us</a>
+								</p>
+                            </form>
+                        </div>
+
+                        <div id="register" class="animate form" style="background-image:url('images/backgrounds/pool.jpg');">
+                            <form  action="mysuperscript.php" autocomplete="on"> 
+                                <h1 > Sign up </h1> 
+                                <p> 
+                                    <label for="usernamesignup" class="uname" data-icon="u" style="color:lightgrey;">Your username</label>
+                                    <input id="usernamesignup" name="usernamesignup" required="required" type="text" placeholder="mysuperusername690" />
+                                </p>
+                                <p> 
+                                    <label for="emailsignup" class="youmail" data-icon="e" style="color:lightgrey;"> Your email</label>
+                                    <input id="emailsignup" name="emailsignup" required="required" type="email" placeholder="mysupermail@mail.com"/> 
+                                </p>
+                                <p> 
+                                    <label for="passwordsignup" class="youpasswd" data-icon="p" style="color:lightgrey;">Your password </label>
+                                    <input id="passwordsignup" name="passwordsignup" required="required" type="password" placeholder="eg. X8df!90EO"/>
+                                </p>
+                                <p> 
+                                    <label for="passwordsignup_confirm" class="youpasswd" data-icon="p" style="color:lightgrey;">Please confirm your password </label>
+                                    <input id="passwordsignup_confirm" name="passwordsignup_confirm" required="required" type="password" placeholder="eg. X8df!90EO"/>
+                                </p>
+                                <p class="signin button"> 
+									<input type="submit" value="Sign up"/> 
+								</p>
+                                <p class="change_link">  
+									Already a member ?
+									<a href="#tologin" class="to_register"> Go and log in </a>
+								</p>
+                            </form>
+                        </div>
+						
+                    </div>
+                </div>  
+            </section>
+        </div>
+        
+</body>
+</html>

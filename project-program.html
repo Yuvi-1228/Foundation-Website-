@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sambala Foundation </title>
+	<link rel="stylesheet" media="all" href="css/style.css" />
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+	@media only screen and (max-width:800px) {
+	  /* For tablets: */
+	   .wrapper {
+	    width: 80%;
+	    padding: 0;
+	  }
+	  .main-menu {
+	    width: 80%;
+	    padding: 0;
+	  }
+	  .comments {
+	    width: 100%;
+	    padding: 0;
+	  }
+	  .avatar{
+	    width: 100%;
+	    padding: 0;
+	  }
+	  .comcont{
+	    width: 100%;
+	    padding: 0;
+	  }
+
+	@media only screen and (max-width:500px) {
+	  /* For mobile phones: */
+	  .wrapper, .main-menu, .comments, .avatar, .comcont {
+	    width: 100%;
+	  }
+	</style>
+	<!-- =================================================================================================================-->
+	<!-- =================================================================================================================-->
+	 <!--  to make navugation bar responsive -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style>
+	.main-menu {
+	  overflow: hidden;
+	  background-color: #333;
+	}
+
+	.main-menu a {
+	  float: left;
+	  display: block;
+	  color: #f2f2f2;
+	  text-align: center;
+	  padding: 14px 16px;
+	  text-decoration: none;
+	  font-size: 17px;
+	}
+
+	.active {
+	  background-color: #4CAF50;
+	  color: white;
+	}
+
+	.main-menu .icon {
+	  display: none;
+	}
+
+	.dropdown {
+	  float: left;
+	  overflow: hidden;
+	}
+
+	.dropdown .dropbtn {
+	  font-size: 17px;    
+	  border: none;
+	  outline: none;
+	  color: white;
+	  padding: 14px 16px;
+	  background-color: inherit;
+	  font-family: inherit;
+	  margin: 0;
+	}
+
+	.dropdown-content {
+	  display: none;
+	  position: absolute;
+	  background-color: #f9f9f9;
+	  min-width: 160px;
+	  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	  z-index: 1;
+	}
+
+	.dropdown-content a {
+	  float: none;
+	  color: black;
+	  padding: 12px 16px;
+	  text-decoration: none;
+	  display: block;
+	  text-align: left;
+	}
+
+	.main-menu a:hover, .dropdown:hover .dropbtn {
+	  background-color: #555;
+	  color: white;
+	}
+
+	.dropdown-content a:hover {
+	  background-color: #ddd;
+	  color: black;
+	}
+
+	.dropdown:hover .dropdown-content {
+	  display: block;
+	}
+
+	@media screen and (max-width: 600px) {
+	  .main-menu a:not(:first-child), .dropdown .dropbtn {
+	    display: none;
+	  }
+	  .main-menu a.icon {
+	    float: right;
+	    display: block;
+	  }
+	}
+
+	@media screen and (max-width: 600px) {
+	  .main-menu.responsive {position: relative;}
+	  .main-menu.responsive .icon {
+	    position: absolute;
+	    right: 0;
+	    top: 0;
+	  }
+	  .main-menu.responsive a {
+	    float: none;
+	    display: block;
+	    text-align: left;
+	  }
+	  .main-menu.responsive .dropdown {float: none;}
+	  .main-menu.responsive .dropdown-content {position: relative;}
+	  .main-menu.responsive .dropdown .dropbtn {
+	    display: block;
+	    width: 100%;
+	    text-align: left;
+	  }
+	}
+	</style>
+	<!-- end of Responsive code-->
+	<!-- =================================================================================================================-->
+
+	<!-- =================================================================================================================-->
+	<!-- =================================================================================================================-->
+	<!-- Scroll Back To Top Button-->
+	<style >
+		#myBtn {
+		  display: none;
+		  position: fixed;
+		  bottom: 20px;
+		  right: 30px;
+		  z-index: 99;
+		  font-size: 18px;
+		  border: none;
+		  outline: none;
+		  background-color: red;
+		  color: white;
+		  cursor: pointer;
+		  padding: 0px;
+		  border-radius: 4px;
+		}
+
+		#myBtn:hover {
+		  background-color: #555;
+		}
+		</style>
+		<!-- end of Scroll Back To Top Button-->
+	<!-- =================================================================================================================-->
+	<!-- =================================================================================================================-->
+</head>
+<body>
+	<!-- =================================================================================================================-->
+	<!-- =================================================================================================================-->
+	<!-- Scroll Back To Top Button-->
+	<button onclick="topFunction()" id="myBtn" title="Go to top"><img src="images/arrow.jpg" /></button>
+	<script>
+		// When the user scrolls down 20px from the top of the document, show the button
+		window.onscroll = function() {scrollFunction()};
+
+		function scrollFunction() {
+		  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+		    document.getElementById("myBtn").style.display = "block";
+		  } else {
+		    document.getElementById("myBtn").style.display = "none";
+		  }
+		}
+
+		// When the user clicks on the button, scroll to the top of the document
+		function topFunction() {
+		  document.body.scrollTop = 0;
+		  document.documentElement.scrollTop = 0;
+		}
+	</script>
+	<!-- end of Scroll Back To Top Button-->
+	<!-- =================================================================================================================-->
+	<!-- =================================================================================================================-->
+	<div class="bgded" style="background-image:url('images/backgrounds/10.jpg');"> 
+		<div class="wrapper"> 
+		  <h1 style="color:Red;">Sambala Foundation</h1>
+		   <div class="topnav">
+	 		 <input type="text" placeholder="Search..">
+			</div> 
+
+		  <nav class="main-menu" id="myTopnav">
+
+		  	<ul>
+			  <li><a class="active" href="index.html">Home</a></li>
+			 
+			    <div class="dropdown">
+			    <button class="dropbtn">Pages 
+			      <i class="fa fa-caret-down"></i>
+			    </button>
+			    <div class="dropdown-content">
+			      <a href="Gallery.html">Gallery</a>
+			      <a href="events.html">Events</a>
+			      <a href="Partners.html">Partners</a>
+			      <a href="Feedback.html">Feedback</a>
+			    </div>
+	  		  </div> 
+			   <a href="project-program.html">Projects and Programs</a>
+			   <a href="what-we-do.html">What we do?</a>
+			  <div class="dropdown">
+			    <button class="dropbtn">Messages 
+			      <i class="fa fa-caret-down"></i>
+			    </button>
+			    <div class="dropdown-content">
+			      <a href="founder-message.html">Founder Message</a>
+			      <a href="MD-message.html">M.D Message</a>
+			    </div>
+	  		  </div> 
+			  <div class="dropdown">
+			    <button class="dropbtn">About Us 
+			      <i class="fa fa-caret-down"></i>
+			    </button>
+			    <div class="dropdown-content">
+			      <a href="mission-vision.html">Mission & Vision</a>
+			      <a href="Our-Team.html">Our Team</a>
+			    </div>
+	  		  </div> 
+	  		  <a href="Contact-us.html">Contact</a>
+	  		  <a href="login.html">LogIn</a>
+	  		   <!-- Calling function to call javascript to make responsive navbar -->
+	  		  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+	  		   <!-- End function to call javascript to make responsive navbar -->
+			</ul>
+
+		  </nav>
+		   <!--  javascript function to make responsive navbar -->
+				<script>
+				function myFunction() {
+				  var x = document.getElementById("myTopnav");
+				  if (x.className === "main-menu") {
+				    x.className += " responsive";
+				  } else {
+				    x.className = "main-menu";
+				  }
+				}
+				</script>
+				<!-- =================================================================================================================-->
+				<!-- =================================================================================================================-->
+		  <br><br><br><br>
+		   <div id="comments">
+        <h2 style="color:Lightgrey;">Projects and Programs</h2>
+        <ul>
+          <li style="background-color:lightgrey;">
+            <article>
+              <header>
+                <figure class="avatar" style="border-style: none;"><img src="images/101.PNG" alt="" border="0" ></figure>
+                <address>
+                 
+                </address>
+              </header>
+              <div class="comcont">
+                <p>
+				Projects And Programs
+				The Sustainable Development Goals are holistic - it ensures basic human rights to citizens, as well as extends peace and security.These goals could be references for not just UN member nations and its governments but for private sectors, development partners, civil societies and common citizens. By referring to the SDGs on a regular basis, various groups and organizations can aspire to achieve economic development as well as environmental protection.
+				 
+				Sambala Foundation, a Corporate Social Responsibility wing of Nepal-Kadel Group, and the United Nations Development Programme in Nepal have signed a new partnership agreement for the promotion of SDG. Both of these organizations are taking collaborative steps to increase awareness regarding the SDGs, with a focus on the role of the private sector and mobilization of stakeholders for the achievement of the various goals. The partnership will optimize Nepal-Kadel Group’s contribution and involvement in achieving SDGs, capturing opportunities in full cater to its business needs and to pursue social and environmental sustainability. Thus, Nepal-Kadel Group is committed towards SDG and its various indicators.</p>
+              </div>
+            </article><br>
+          </li><br><br>
+          <li style="background-color:lightgrey;">
+            <article>
+              <header>
+                <figure class="avatar" style="border-style: none;"><img src="images/102.PNG" alt=""></figure>
+                <address>
+                 <a style="color:blue;">Enterprise Development</a>
+                </address>
+              </header>
+              <div class="comcont">
+                <p> Enterprise Development of various kind across 7 districts of Far Western and Western Region of the country are targeted to address pertaining social issues through social business. This also ultimately helps to reduce the poverty level of the area. Employment created by Social business are one of the most important aspect of Sustainable Development Goals. Economic status of people in region such as Dolpa, Jumla, Kailali will be enhanced through social business innovation supporting SDG national target of reducing poverty to below 6% by 2030. Similarly, nutrition project such as in Jumla where nutritional status of children below the national standard, where we are producing fortified cookies is complementing the national goal of reducing undernourishment of 0-59 m by 1% by 2030 . Production of nutritious food grains and their market promotion helps not only in reducing hunger but providing access to nutritious grain across the country. In all of these enterprises development work ethics, work values and aspiration for economic growth has been incorporated in the incubation training and in daily running of the business supporting SDG 8. All the social business implements social impact matrix especially developed for social business, which supports the business to run in more socially impactful way like ethical business practices, healthy work place etc. Hence, Enterprises development in particular is one of the key element to support SDG’s and its indicators.<br>
+				Nepal Social Business (NSB), a joint initiative of Lions Club International Foundation (LCIF) and Nepal-Kadel Group (NKG) started in July, 2014. The partnership was to address various social issues faced by the country through social business. Here Social Business was planned to develop through awareness, incubation and investment in the businesses. More than 100 entrepreneurs have been trained out of which 22 projects have been incubated. Out of those 22 projects, 11 projects were recommended by Social Impact Assessment Committee and Investment Committee. Finally out of 11 recommended projects 6 projects have been invested into. Out of those 6 projects, 4 projects are in Mid-Western Development Region and 2 projects are in Far Western Development Region of Nepal.
+				Recently in 2016, 6 new projects have been incubated in Dolpo district as Dolpo Eco Lodge Project and 7 are in process of being invested. There are so far 3 batches of incubation that have been organized since June 2014. First batch was Pilot Project at Jumla started in July 2014 and second batch started on June 2015 with Dadeldura and Dang Cluster. Third Batch incubation started in December 2016 at Dolpo.
+				</p>
+              </div>
+            </article>
+          </li><br><br>
+          <li style="background-color:lightgrey;">
+            <article>
+              <header>
+                <figure class="avatar" style="border-style: none;"><img src="images/103.PNG" alt=""></figure>
+                <address>
+                 <a style="color:blue;">Education</a>
+                </address>
+              </header>
+              <div class="comcont">
+                <p>
+				Education is one of the most important area that Shambala Foundation has been supporting since its inception. Completion of 40 schools and the support towards Quality school program strengthening the skill of teachers in rural Nepal is an example how Foundation is supporting SDG of ensuring inclusive and equitable quality education and promote lifelong learning opportunities for all. Continue scholarships program are opening up doors of an opportunities and inspiring students from rural areas towards better education especially towards those who are in need, indigenous and female students. Equipping classrooms with modern technology and providing an opportunity to vulnerable schools supports indicators of SDG 4. Various skill development program where we prioritize female participation is our support towards SDG of gender equality and empower all women & girls.<br>
+				Quality School Program<br>
+				Quality school program is an initiative which is focused on the enhancement of information and technology (IT) learning by upgrading existing IT facilities and services of educational institutions. It provides capacity development workshops and necessary resources as per the need of the institutions. QSP envisions a digitally integrated classroom for all students to encourage innovation, promote IT skills and contribute to holistic education and all round development of its students and the country.<br><br>
+				GyanUdaya Scholarship<br>
+				GyanUdaya scholarship was established in 2010 to give recognition to deserving but underprivileged students to help them continue their studies. The scholarship is provided on annual basis and The total no. of students that benefited from this cause were 465.Community school teachers contributing to help students excel are also honored as part of the scholarship. GyanUdaya Scholarships encourages students to be committed and highly successful in their education.<br><br>
+				Digital Class Room<br>
+				Sambala Foundation and LG are business partners. This partnership in business has led both of this organization to become a partner in philanthropy as well. After the devastating earthquake of 2015, both of these organization emerged to reach out to ease the pain of those earthquake victims. LG
+				and SF continue to pursue community development project. Currently LG is supporting to set up digital class room. In Nepal digital technology education (classroom) is a dream project and still out of reach to many schools. The literacy rate of Nepal as per 2011 census report is 65.9%, while much efforts are being made on attaining higher literacy rate the idea of digital literacy is still long way to be achieved. However, most schools in urban and semi-urban area of Nepal do have provision for computer education and are somewhat contributing towards achieving digital education. The idea of such digital skills to rural Nepal can not only help in attaining digital literacy but also to connect those families whose family member has gone abroad for labor or some other purpose through social networking connections and other existing technology. Through digital knowledge/education, schools will be able to create and implement a systematic and professional development program which will positively affect learnings of students and help increase their achievements. Three Schools are being supported as a pilot project for this program. Shree Mahakali Higher Secondary School in Giranchaur, Melamchi is one of the schools where digital class rooms will be launched. There are altogether 263 students
+				in this school. Most students belong to Tamang community in Giranchaur whose houses are destroyed by earthquake where Sambala Foundation is also building houses to those victims. Digital Class room project are part of holistic support Sambala Foundation is bringing to upgrade and enhance
+				this community. Thus, partnership with LG and its support towards Nepali community is highly commendable. Sambala Foundation and LG has also upcoming projects in pipeline for coming days.
+				</p>
+              </div>
+            </article>
+          </li><br><br>
+          <li style="background-color:lightgrey;">
+            <article>
+              <header>
+                <figure class="avatar" style="border-style: none;"><img src="images/104.PNG" alt=""></figure>
+                <address>
+                 <a style="color:blue;">Health & Sanitation</a>
+                </address>
+              </header>
+              <div class="comcont">
+                <p> One of our prominent commitment towards Family Planning 2020 makes us more accountable towards ensuring healthy lives and promote wellbeing. Mass communication support for family planning and support on distribution of health commodities in Nepal will meant a lot to support SDG  and its indicators. Sexual adolescent health, education, awareness for all sex are well equipped within our reach to support SDG . Clean water and Sanitation is one of the key area where Foundation support’s keenly. Water filtration system in various schools and hygiene promotion is one of the way to support SDG . Celebration of Global Toilet day, water day, hand washing day and integrating our campaign with national goals and global goals are how we are striving to support Goal no 6. This program of CF focuses on improving the health of the people of rural areas through the WASH and Women’s Health initiatives. It conducts various WASH related activities to upgrade healthy living standards of people in various parts of the country. The program supports activities such as health promotion, safe drinking water and capacity building. These include distribution of information, education and communication (IEC) materials, community awareness, providing clean and safe drinking water to schools and operations and maintenance of WASH facilities. Likewise, through the Women’s Health initiative, SF, coordinating with women’s groups across various parts of the country, organizes health camps and provides training to produce low cost sanitary napkins.<br><br>
+ 
+				Clean Water, Healthy Habit<br>
+				Sambala Foundation, the social wing of the Nepal-Kadel Group, and Planet Water Foundation, a US-based NGO working in various parts of the world providing access to clean, safe water to nearly one million children, have teamed up to provide sustainable community-based water filtration systems to schools across Nepal. The project is targeting schools that Shambala Foundation has built post earthquake as part of its NKG Shiksyalaya program. The MoU has been signed on November 14th 2016 at the office of Shambala Foundation by Mr. Yubaraj Thapa Chetri, the Founder and CEO of Planet Water Foundation, and Mr. Nirvana Chaudhary, CEO of the Chaudhary
+				Foundation. The project will also focus on Water-Health and Hygiene education of school children and the community. “Our vision is to create sustainable, community development through the various projects that Chaudhary Foundation has initiated. School children and schools are the primary focal areas of development. We believe that the project will provide relief to thousands of children of various waterborne diseases by ensuring safe drinking water and improved hygiene practices,” said Mr. Nirvana Chaudhary. Ten school project sites have already been selected in Dolakha, Kavre,Lalitpur,Bhaktapur and Sindupalchowk. Each project is budgeted tentatively around US$ 10,000. The objective of the program is to enhance rural community development by deploying community-based water filtration systems and implementing hygiene education programs in 100 different schools in Nepal before 2020. Mark Steele, the founder of PWF further added that “We are very excited to be partnering with the Chaudhary Foundation which will be our implementing partner. Our experiences and expertise collaborated with the foundation will help thousands of children across Nepal.”
+				</p>
+              </div><br><br>
+            </article>
+          </li>
+         </ul>
+         <li style="background-color:lightgrey;">
+            <article>
+              <header>
+                <figure class="avatar" style="border-style: none;"><img src="images/105.PNG" alt=""></figure>
+                <address>
+                 <a style="color:blue;">Post Disaster Response & Management</a>
+                </address>
+              </header>
+              <div class="comcont">
+				                <p>
+				Building back better is one the key principle we have been incorporating for an establishment of resilient communities. Disaster Risk Reduction and the preparedness is one of the key element of Shambala Foundation supporting SDG 11. Vision of model village with earthquake resistant homes, environmental sustainability, economic prosperity and harmonious society is one key step towards achieving SDG.<br>
+				 
+				Shambala Foundation has a Post Disaster Response and Management programme to look after emergency relief operations and the management of victims in an event of a natural disaster. The programme quickly mobilized rescue, relief and recovery efforts immediately after the devastating earthquake of April 2015. Through the programme, SF has built more than 3,000 transitional shelters and 40 semipermanent schools in 10 out of 14 highly affected districts. After the earthquake, the post-disaster response and management was divided into three phases. Phase one concluded with the distribution of emergency relief items of food, water and medical supplies to the affected people while also helped remove rubble in different areas of Lalitpur district. In phase two, necessary relief aid such as tents, bottled water, noodles, juice were distributed using NKG Foods distribution and logistics network. Meanwhile, the ongoing phase three of the programme is focused on reconstruction and rehabilitation. The phase has been divided into three projects namely, NKG Ashraya, NKG Shikshyalaya and NKG Sipsikchya to build transitional shelters and schools in the quake hit districts and provide demand driven skill-based vocational training to the youths of the affected areas. Nepal-Kadel Group has made a commitment of USD 2.5 million through the Foundation to restore schools and homes.<br><br>
+				NKG Ashraya<br>
+				NKG Ashraya is a transitional shelter program of Shambala Foundation. The transitional shelters were built with an objective to provide quick and safer option for shelter for those who were left homeless during the 2015 earthquake. The project was implemented with full involvement of the beneficiaries who were trained on construction technique and skills guided by our field engineers, social mobilizers and local coordinators. LekmayaDhakal, 58, who is a single woman resident of Baseri VDC 6 in Dhading district, is one of the beneficiaries of “NKG Ashraya” home constructed by Shambala Foundation. Baseri is 60 km away from Dhadingbesi. It is one of the most remote VDC of Dhading. The village was badly destroyed by the earthquake of April 25th, 2015. Almost 90% of houses in this village were destroyed by the earthquake. Shambala Foundation has built 266 houses in this VDC. Despite its remoteness, the smiling glimpses of Manaslu enhance the beauty of this village. Additionally upon our visit we found out that youth in this villages are entrepreneurial. They have started a homestay tourism business via Baseri to Manaslu. Lekmaya lost her home on April 25th 2015 after the devastating 7.8 magnitude earthquake struck the country. She was terrified and was not sure how she was going to build a new home. “I was all by myself, I lost my husband long time ago and both of my sons are not here living with me, I lost control of my life Post Disaster Response and Management after my house was destroyed by the earthquake.” In response to the disaster, Shambala Foundation quickly sprang into action and so far has built2520 shelters across 10 earthquakeaffected districts. The Foundation reached out to groups of single women, elderly citizens and marginalized communities to provide support through NKG Ashraya. “Shambala Foundation has given me my life back, they helped me re-ignite the light which was almost diminishing” says Lekmaya. Members from Social Welfare Council and Shambala Foundation along with local authorities visited many of these houses during the monitoring and evaluations of the construction project. Additionally Shambala Foundation also supported these village with drinking water pipelines which benefits more than 70 HH along with Higher Secondary school of the region. Mr. Gopal Dhakal, the local said “Drinking water had become a big headache to us. Villagers, especially women had to walk almost 25 minutes to fetch a bucket of water. Now the support of Shambala Foundation has made lives easy for these 70 HH. I am especially thankful to Shambala Foundation team because students in schools have access to drinking water easily in their school premise itself. “<br><br>
+				NKG Shikshyalaya<br>
+				NKG Shikshyalaya is an initiative of Shambala Foundation aiming to construct public/community schools in the most affected areas. The buildings are rebuilt and improvised as per model depending on geographical accessibility for material transportation.<br> <br>Objectives<br>
+				• To ensure start up / functioning of schools in the shortest possible time frame.<br>
+				• To provide learning materials, vocational classes and technical training for students where required.<br><br>
+				Model Village : ShashwatGram<br>
+				Shambala Foundation has built around 3000 semi-permanent houses and 40 schools across all earthquake affected districts under its DRR program. The Foundation now envisions a Model Village with the objective to enhance sustainable development and resiliency of marginalized communities focusing on four major components namely: Economic prosperity focuses on social business, enterprise development, skills and capacity development encouraging innovation and self-sustenance. Quality of Life and Quality Education focuses on holistic way of learning and living by encouraging moral values, meditation and yoga, enhancing basic facilities comprising of water, sanitation and health as well as improving digitally integrated classrooms to encourage innovation skills and technology. Women health, clean drinking water, organic farming, renewable energy are major areas in environment and health section. The Foundation has selected a village in Giranchaur in Melamchi Municipality in Sindupalchowk district to construct a model village named Shaswat Gram. We will be building 70 permanent homes including various other Livelihood program, entrepreneurial development program, education support by providing digital classroom, women empowerment program and WASH program.<br>
+				 
+				LWF Nepal has extended hand with Shambala Foundation to support its WASH program in its model village project. LWF will be constructing toilet and will support in distribution of drinking water tap system across model village. Shambala Foundation and LWF has similarly partnered a project together to construct 151 permanent homes in Yarsa of Rasuwa district post-earthquake. Dr. Prabin Manandhar, the director of LWF and Mr. Nirvanana Chaudhary from CF signed a MoU at a function at CG office on August 22nd of 2017. The project in Giranchaur is being carried out upon the recommendation of Nepal Reconstruction Authority. Shambala Foundation is working with NRA, Melamchi Municipality, local authorities and various local leaders to complete this project. The proto type house and community center will be constructed as the first phase of the project followed by construction of other 70 HH.
+				</p>
+              </div><br><br>
+            </article>
+          </li>
+         </ul><br><br>
+         <li style="background-color:lightgrey;">
+            <article>
+              <header>
+                <figure class="avatar" style="border-style: none;"><img src="images/106.PNG" alt=""></figure>
+                <address>
+                 <a style="color:blue;">Livelihood & Skill Development</a>
+                </address>
+              </header>
+              <div class="comcont">
+                <p> Shambala Foundation has introduced two programmes NKG Shipshikshya and NKG Unnati under the Livelihood and Skill Development
+				programme. The Foundation has a training centre located at NKG Industrial Park, Nawalparasi that provides various vocational trainings in professions including masonry, carpentry, and electrical works, among others. In order to support people rebuilding and reconstructing houses after last year’s earthquake, SF has been organising a special project at earthquake affected districts. Similarly, the Unnati programme is promoting sustainable livelihoods through women empowerment. Unnati aims to support women from socially deprived communities by providing income generating opportunities. Joining hands with National Micro-Entrepreneurs Federation Nepal (NMEFEN), SF provides skills and capacity development training to the women through women micro-entrepreneurs. It is helping the women to become self-reliant by teaching them to make handmade paper, along with hemp and bamboo products, textiles, cashmere, felt and organic food items. It also supports them from fundraising to marketing.<br><br>
+				NKG Unnati<br>
+				UNNATI is a initiative of Shambala Foundation whichsupports a future for women from socially deprived communities by providing them better income generating opportunities while safeguarding their health and building of their morale values and esteem. Highlights of the ongoing projects of UNNATI
+				Unnati Shoppie at NKG Digital Pvt Ltd.<br><br>
+				NKG Shaswatdham Heritage Store<br>
+				The key innovation of the UNNATI program is to promote small scale micro enterprises and entrepreneurs. The products such as laptop bags, diary, shopping bags and others made of locally made materials will have an advantage of addressing business entrepreneurs through market linkages and business development. Giving the importance to preserve and promote Nepalese micro-enterprises, Shambala Foundation in joint collaboration with NKG Digital Pvt Ltd. and NKG Shaswatdham has provided a platform for micro-enterprises to promote their products for income generation and to create livelihood opportunities.<br>
+				The stations of NKG Digital Pvt Ltd showroom and NKG Shaswatdham Heritage store has been considered as a viable station to track and create market level awareness for the promotion of local products.<br>
+				NKG Shipshikshya<br>
+				Key Activities:<br>
+				10 Mason trainings conducted in highly earthquake affected districts (Kathmandu, Lalitpur, Sindhupalchowk, Rasuwa and Dolakha) benefiting 300 masons enabling them to construct their own homes.<br>
+				Objective:<br>
+				Producing skilled manpower for better employment opportunities. Also help to enhance the skills of the youths going for foreign employment.<br>
+				In Pipeline:<br>
+				Plumbing, electrical wiring, mobile repairing
+				</p>
+              </div><br><br>
+            </article>
+          </li>
+         </ul><br><br>
+         <li style="background-color:lightgrey;">
+            <article>
+              <header>
+                <figure class="avatar" style="border-style: none;"><img src="images/107.PNG" alt=""></figure>
+                <address>
+                 <a style="color:blue;">Heritage Development & Spiritual Development</a>
+                </address>
+              </header>
+              <div class="comcont">
+                <p>
+				Under the programme, SF aims to preserve cultural heritage and provide inner peace and tranquility to the people. It has NKG ShashwatDham located at Nawalparasi for the purpose where Brahmin children are trained with the Gurukul-based ancient methodology to carry out various rituals and rites. Similarly, with the PashupaptiAryaghatRevitalisation Project (PRP), SF is engaged in preserving one of the most sacred sites of the Hindus. Shambala Foundation's Founder Sujan Kadel has been personally engaged in maintaining the Pashupatinath Temple and adjacent areas.<br><br>
+				 
+				SHASWATDHAM:<br>
+				Shambala Foundation and Shashwat Dham family would like to thank every single one of you who have reached the temple at Shashwat Dham.In 7 month of time since March 7th the inaugural day more than 1 million visitors have already visited Shashwat Dham. The visitor includes head of states, spiritual leaders, political leaders, civil society, private organizations, students, spiritual seekers, religious devotees and commoners to get the darshan of Ekambareshwor Shiva temple. “This temple is the midpoint of Sanatan Dharma and Spirituality.All age group of people has shown interest to come to this temple. Including Hindu philosophy, now we are including stories and subject related to Buddhism as well. This place will become one of the major attractions of religious site in Nepal.” Said Mr.Yubaraj Thapa Chettri,Managing Director of the Foundation.<br>
+				 
+				MISSION:<br>
+				To be the most sought after destination for explorers, seekers and nature lovers globally for spiritual upliftment, mental tranquility and physical wellbeing, through Knowledge (Jnana), devotion (Bhakti), action (Karma) and Yogic Practices (raja) while preserving & upholding the essence of Sanatana dharma (the eternal way of Living) in its purest form.<br>
+				 
+				Pashupati Aryaghat Revitalization Project<br>
+				Key Activities:<br>
+				Handover of Phase 1 renovation<br>
+				On July 7th 2017, Mr. Sujan kadel, the Founder of Shambala Foundation handed over the completion report of the Pashupatinath Arayaghat Rennovation Phase 1 project to Mr. Govinda Tandon, the chairperson of Pashupatinath Development Trust. His Excellency, the ambassador of India Mr. Manjeev Singh Puri was the chief guest of the event. Mr. Puri also inaugurated the temple of Mangalagauri in the premise of Arayaghat. Chaudhary Foundation has renovated Anantanarayan Temple, Batsaleshwari temple, Batsaleshwaripati, Panch Ganesh, Mangalagauri, drinking water sprouts and various other structures around the area. Mr. Kadel took this vision to renovate arayaghat area when he was there to cremate
+				his mother in 2001. The site is under world heritage site and Shambala Foundation patiently executed the job after various authorization and approvals from various Government and international stakeholders. “It is our moral obligation and our duty to preserve such historical monuments and we feel humbleto be handing over this report to Pashupati Development Trust and we thank everyone who helped us completing this vision”
+				said Mr. Sujan Kadel during the handover ceremony.
+				</p>
+              </div><br><br>
+            </article>
+          </li>
+         </ul>
+      </div>
+      <!-- ################################################################################################ -->
+    </div>
+		   
+			<footer>
+		
+				<footer class="footer-distributed">
+
+					<div class="footer-left">
+
+						<h3>Sambala <span>Foundation</span></h3>
+
+						<p class="footer-links">
+							<a class="" href="index.html">Home</a>
+							·
+							<a href="Partners.html">Partners</a>
+							.
+			     			<a href="Feedback.html">Feedback</a>
+							·
+							<a href="login.html">LogIn</a>
+							·
+							<a href="Contact-us.html">Contact</a>
+							·
+							
+						</p>
+
+						<p class="footer-company-name">Sambala Foundation &copy; 2019</p>
+					</div>
+
+					<div class="footer-center">
+
+						<div>
+							<i class="fa fa-map-marker"></i>
+							<p><span>Chabahil</span> Kathmandu, Nepal</p>
+						</div>
+
+						<div>
+							<i class="fa fa-phone"></i>
+							<p>+977 9874 12365</p>
+						</div>
+
+						<div>
+							<i class="fa fa-envelope"></i>
+							<p><a href="mailto:Sambalafoundation@company.com">Sambalafoundation@company.com</a></p>
+						</div>
+
+					</div>
+
+					<div class="footer-right">
+
+						<p class="footer-company-about">
+							<span>About the company</span>
+							Sambala Foundation was established in 1995 by Nepal-kadel Group for philanthropic activities. From the beginning our business and social commitments have always been mutually reinforcing and has always featured as an integral part of our business.
+						</p>
+
+						<div class="footer-icons">
+
+							<a href="#"><i class="fa fa-facebook"></i></a>
+							<a href="#"><i class="fa fa-twitter"></i></a>
+							<a href="#"><i class="fa fa-linkedin"></i></a>
+							<a href="#"><i class="fa fa-github"></i></a>
+
+						</div>
+
+					</div>
+
+				</footer>
+			</footer>
+		</div>
+	</div>
+</body>
+</html>

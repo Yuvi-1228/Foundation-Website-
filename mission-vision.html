@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sambala Foundation </title>
+	<link rel="stylesheet" media="all" href="css/style.css" />
+	<!-- =================================================================================================================-->
+	<!-- ========== Small icons in the footer, without this link icons will not appear ============-->
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+	<!-- ========== Making responsive  ============-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+	@media only screen and (max-width:800px) {
+	  /* For tablets: */
+	   .wrapper {
+	    width: 80%;
+	    padding: 0;
+	  }
+	  .main-menu {
+	    width: 80%;
+	    padding: 0;
+	  }
+	  .wrapper overlay {
+	    width: 100%;
+	    padding: 0;
+	  }
+	  .pageintro{
+	    width: 100%;
+	    padding: 0;
+	  }
+	 
+	@media only screen and (max-width:500px) {
+	  /* For mobile phones: */
+	  .wrapper, .main-menu, .wrapper overlay, .pageintro, {
+	    width: 100%;
+	  }
+	</style>
+	<!-- =================================================================================================================-->
+	<!-- =================================================================================================================-->
+	 <!--  to make navugation bar responsive -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style>
+	.main-menu {
+	  overflow: hidden;
+	  background-color: #333;
+	}
+
+	.main-menu a {
+	  float: left;
+	  display: block;
+	  color: #f2f2f2;
+	  text-align: center;
+	  padding: 14px 16px;
+	  text-decoration: none;
+	  font-size: 17px;
+	}
+
+	.active {
+	  background-color: #4CAF50;
+	  color: white;
+	}
+
+	.main-menu .icon {
+	  display: none;
+	}
+
+	.dropdown {
+	  float: left;
+	  overflow: hidden;
+	}
+
+	.dropdown .dropbtn {
+	  font-size: 17px;    
+	  border: none;
+	  outline: none;
+	  color: white;
+	  padding: 14px 16px;
+	  background-color: inherit;
+	  font-family: inherit;
+	  margin: 0;
+	}
+
+	.dropdown-content {
+	  display: none;
+	  position: absolute;
+	  background-color: #f9f9f9;
+	  min-width: 160px;
+	  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	  z-index: 1;
+	}
+
+	.dropdown-content a {
+	  float: none;
+	  color: black;
+	  padding: 12px 16px;
+	  text-decoration: none;
+	  display: block;
+	  text-align: left;
+	}
+
+	.main-menu a:hover, .dropdown:hover .dropbtn {
+	  background-color: #555;
+	  color: white;
+	}
+
+	.dropdown-content a:hover {
+	  background-color: #ddd;
+	  color: black;
+	}
+
+	.dropdown:hover .dropdown-content {
+	  display: block;
+	}
+
+	@media screen and (max-width: 600px) {
+	  .main-menu a:not(:first-child), .dropdown .dropbtn {
+	    display: none;
+	  }
+	  .main-menu a.icon {
+	    float: right;
+	    display: block;
+	  }
+	}
+
+	@media screen and (max-width: 600px) {
+	  .main-menu.responsive {position: relative;}
+	  .main-menu.responsive .icon {
+	    position: absolute;
+	    right: 0;
+	    top: 0;
+	  }
+	  .main-menu.responsive a {
+	    float: none;
+	    display: block;
+	    text-align: left;
+	  }
+	  .main-menu.responsive .dropdown {float: none;}
+	  .main-menu.responsive .dropdown-content {position: relative;}
+	  .main-menu.responsive .dropdown .dropbtn {
+	    display: block;
+	    width: 100%;
+	    text-align: left;
+	  }
+	}
+	</style>
+	<!-- end of Responsive code-->
+	<!-- =================================================================================================================-->
+</head>
+<body>
+	<div class="bgded" style="background-image:url('images/backgrounds/back.jpg');"> 
+		<div class="wrapper"> 
+		  <h1>Sambala Foundation</h1>
+		   <div class="topnav">
+	 		 <input type="text" placeholder="Search..">
+			</div> 
+
+		  <nav class="main-menu" id="myTopnav">
+
+		  	<ul>
+			  <li><a class="active" href="index.html">Home</a></li>
+			 
+			    <div class="dropdown">
+			    <button class="dropbtn">Pages 
+			      <i class="fa fa-caret-down"></i>
+			    </button>
+			    <div class="dropdown-content">
+			      <a href="Gallery.html">Gallery</a>
+			      <a href="event.html">Events</a>
+			      <a href="Partners.html">Partners</a>
+			      <a href="Feedback.html">Feedback</a>
+			    </div>
+	  		  </div> 
+			   <a href="project-program.html">Projects and Programs</a>
+			  <a href="what-we-do.html">What we do?</a>
+			  <div class="dropdown">
+			    <button class="dropbtn">Messages 
+			      <i class="fa fa-caret-down"></i>
+			    </button>
+			    <div class="dropdown-content">
+			      <a href="founder-message.html">Founder Message</a>
+			      <a href="MD-message.html">M.D Message</a>
+			    </div>
+	  		  </div> 
+			  <div class="dropdown">
+			    <button class="dropbtn">About Us 
+			      <i class="fa fa-caret-down"></i>
+			    </button>
+			    <div class="dropdown-content">
+			      <a href="mission-vision.html">Mission & Vision</a>
+			      <a href="Our-Team.html">Our Team</a>
+			    </div>
+	  		  </div> 
+	  		  <a href="Contact-us.html">Contact</a>
+	  		  <a href="login.html">LogIn</a>
+	  		  <!-- Calling function to call javascript to make responsive navbar -->
+	  		  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+	  		   <!-- End function to call javascript to make responsive navbar -->
+
+			</ul>
+
+		  </nav>
+		  <!--  javascript function to make responsive navbar -->
+				<script>
+				function myFunction() {
+				  var x = document.getElementById("myTopnav");
+				  if (x.className === "main-menu") {
+				    x.className += " responsive";
+				  } else {
+				    x.className = "main-menu";
+				  }
+				}
+				</script>
+				<!-- =================================================================================================================-->
+				<!-- =================================================================================================================-->
+		  <br><br><br><br>
+		  	<div class="wrapper overlay"  >
+		    <div id="pageintro" class="hoc clear"> 
+			  <article align="center">
+			        
+			         <h3 class="heading"><center>Sambala Foundation</center></h3>
+			         <p style-size="8">&nbsp; &nbsp;Sambala Foundation was established in 1999 by Nepal-Kadel Group for philanthropic activities. From the beginning our business and social commitments have always been mutually reinforcing and has always featured as an integral part of our business. . Along with evolution of our company, its responsibility and expectation towards society has also evolved , addition to philanthropic activities Sambala Foundation now works on developing socially responsible business, sustainable development of our society.<br><br>
+
+
+					 &nbsp;&nbsp; &nbsp;We feel strong sense of responsibility towards society and we strive to build better and healthy society. To improve their lives and to strengthen our communities, we are committed to undertake our foundation activities in various sectors.<br><br>
+
+					 &nbsp;&nbsp; &nbsp;The Sambala Foundation (SF) believes in the relationships it builds with employees, customers, partners and the community at large. As a result, the group has been actively invested in the community for over two decades. Sambala Foundation follows our group’s belief in the power of the relationships and was setup to enhance our contributions to society by reorganizing our social initiatives towards a sustainable and focused model. This belief allows our foundation to prioritize initiatives in the Social (Education, Health and Sport), Economic and Environmental sectors within its sphere of influence in a sustainable way.<br><br>
+
+					 &nbsp;&nbsp; &nbsp;Through various partners, we are tackling some of the most critical issues in each of these areas. Our approach is to focus on a few critical issues through which we can adopt the best methodology and have the greatest impact. For each of the issues we work on, the foundation funds innovative ideas that can help remove barriers and assist in promoting quality education, access to healthcare and foster the development of an empowered youth in Nepal.<br><br>
+
+					 &nbsp;&nbsp; &nbsp;Sambala Foundation continues to add to the portfolio of initiatives taken up by the Nepal-Kadel Group over the past few decades. It is building upon past successes by applying the same business-oriented approach in tackling these pressing challenges. Focused and optimistic, the foundation is working with our partners to identify and implement innovative solutions that can help every person have the opportunity to live a healthy and productive life.<br><br> </p>
+			        
+			    </article>
+		    </div>
+ 
+
+		    <br><br>
+			<footer>
+		
+				<footer class="footer-distributed">
+
+					<div class="footer-left">
+
+						<h3>Sambala <span> Foundation</span></h3>
+
+						<p class="footer-links">
+							<a class="" href="index.html">Home</a>
+							·
+							<a href="Partners.html">Partners</a>
+							.
+			     			<a href="Feedback.html">Feedback</a>
+							·
+							<a href="login.html">LogIn</a>
+							·
+							<a href="Contact-us.html">Contact</a>
+							·
+							
+						</p>
+
+						<p class="footer-company-name">Sambala Foundation &copy; 2019</p>
+					</div>
+
+					<div class="footer-center">
+
+						<div>
+							<i class="fa fa-map-marker"></i>
+							<p><span>Chabahil</span> Kathmandu, Nepal</p>
+						</div>
+
+						<div>
+							<i class="fa fa-phone"></i>
+							<p>+977 9874 12365</p>
+						</div>
+
+						<div>
+							<i class="fa fa-envelope"></i>
+							<p><a href="mailto:sujanfoundation@company.com">Sambalafoundation @company.com</a></p>
+						</div>
+
+					</div>
+
+					<div class="footer-right">
+
+						<p class="footer-company-about">
+							<span>About the company</span>
+							Sambala Foundation was established in 1995 by Nepal-kadel Group for philanthropic activities. From the beginning our business and social commitments have always been mutually reinforcing and has always featured as an integral part of our business.
+						</p>
+
+						<div class="footer-icons">
+
+							<a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a>
+							<a href="https://twitter.com"><i class="fa fa-twitter"></i></a>
+							<a href="https://www.linkedin.com"><i class="fa fa-linkedin"></i></a>
+							<a href="https://github.com/"><i class="fa fa-github"></i></a>
+
+						</div>
+
+					</div>
+
+				</footer>
+			</footer>
+		</div>
+	</div>
+</body>
+</html>

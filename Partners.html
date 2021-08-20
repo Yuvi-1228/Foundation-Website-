@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Sambala Foundation </title>
+	<link rel="stylesheet" media="all" href="css/style.css" />
+	<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+	@media only screen and (max-width:800px) {
+	  /* For tablets: */
+	   .wrapper {
+	    width: 80%;
+	    padding: 0;
+	  }
+	  .main-menu {
+	    width: 80%;
+	    padding: 0;
+	  }
+	  .comments {
+	    width: 100%;
+	    padding: 0;
+	  }
+	  .avatar{
+	    width: 100%;
+	    padding: 0;
+	  }
+	  .comcont{
+	    width: 100%;
+	    padding: 0;
+	  }
+
+	@media only screen and (max-width:500px) {
+	  /* For mobile phones: */
+	  .wrapper, .main-menu, .comments, .avatar, .comcont {
+	    width: 100%;
+	  }
+	</style>
+
+
+	<!-- =================================================================================================================-->
+	<!-- =================================================================================================================-->
+	 <!--  to make navugation bar responsive -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style>
+	.main-menu {
+	  overflow: hidden;
+	  background-color: #333;
+	}
+
+	.main-menu a {
+	  float: left;
+	  display: block;
+	  color: #f2f2f2;
+	  text-align: center;
+	  padding: 14px 16px;
+	  text-decoration: none;
+	  font-size: 17px;
+	}
+
+	.active {
+	  background-color: #4CAF50;
+	  color: white;
+	}
+
+	.main-menu .icon {
+	  display: none;
+	}
+
+	.dropdown {
+	  float: left;
+	  overflow: hidden;
+	}
+
+	.dropdown .dropbtn {
+	  font-size: 17px;    
+	  border: none;
+	  outline: none;
+	  color: white;
+	  padding: 14px 16px;
+	  background-color: inherit;
+	  font-family: inherit;
+	  margin: 0;
+	}
+
+	.dropdown-content {
+	  display: none;
+	  position: absolute;
+	  background-color: #f9f9f9;
+	  min-width: 160px;
+	  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+	  z-index: 1;
+	}
+
+	.dropdown-content a {
+	  float: none;
+	  color: black;
+	  padding: 12px 16px;
+	  text-decoration: none;
+	  display: block;
+	  text-align: left;
+	}
+
+	.main-menu a:hover, .dropdown:hover .dropbtn {
+	  background-color: #555;
+	  color: white;
+	}
+
+	.dropdown-content a:hover {
+	  background-color: #ddd;
+	  color: black;
+	}
+
+	.dropdown:hover .dropdown-content {
+	  display: block;
+	}
+
+	@media screen and (max-width: 600px) {
+	  .main-menu a:not(:first-child), .dropdown .dropbtn {
+	    display: none;
+	  }
+	  .main-menu a.icon {
+	    float: right;
+	    display: block;
+	  }
+	}
+
+	@media screen and (max-width: 600px) {
+	  .main-menu.responsive {position: relative;}
+	  .main-menu.responsive .icon {
+	    position: absolute;
+	    right: 0;
+	    top: 0;
+	  }
+	  .main-menu.responsive a {
+	    float: none;
+	    display: block;
+	    text-align: left;
+	  }
+	  .main-menu.responsive .dropdown {float: none;}
+	  .main-menu.responsive .dropdown-content {position: relative;}
+	  .main-menu.responsive .dropdown .dropbtn {
+	    display: block;
+	    width: 100%;
+	    text-align: left;
+	  }
+	}
+	</style>
+	<!-- end of Responsive code-->
+	<!-- =================================================================================================================-->
+
+	<!-- =================================================================================================================-->
+	<!-- =================================================================================================================-->
+	<!-- Scroll Back To Top Button-->
+	<style >
+		#myBtn {
+		  display: none;
+		  position: fixed;
+		  bottom: 20px;
+		  right: 30px;
+		  z-index: 99;
+		  font-size: 18px;
+		  border: none;
+		  outline: none;
+		  background-color: red;
+		  color: white;
+		  cursor: pointer;
+		  padding: 0px;
+		  border-radius: 4px;
+		}
+
+		#myBtn:hover {
+		  background-color: #555;
+		}
+		</style>
+		<!-- end of Scroll Back To Top Button-->
+	<!-- =================================================================================================================-->
+	<!-- =================================================================================================================-->
+
+</head>
+<body>
+	<!-- =================================================================================================================-->
+	<!-- =================================================================================================================-->
+	<!-- Scroll Back To Top Button-->
+	<button onclick="topFunction()" id="myBtn" title="Go to top"><img src="images/arrow.jpg" /></button>
+	<script>
+		// When the user scrolls down 20px from the top of the document, show the button
+		window.onscroll = function() {scrollFunction()};
+
+		function scrollFunction() {
+		  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+		    document.getElementById("myBtn").style.display = "block";
+		  } else {
+		    document.getElementById("myBtn").style.display = "none";
+		  }
+		}
+
+		// When the user clicks on the button, scroll to the top of the document
+		function topFunction() {
+		  document.body.scrollTop = 0;
+		  document.documentElement.scrollTop = 0;
+		}
+	</script>
+	<!-- end of Scroll Back To Top Button-->
+	<!-- =================================================================================================================-->
+	<!-- =================================================================================================================-->
+	
+	<div class="bgded" style="background-image:url('images/backgrounds/111.jpg');"> 
+		<div class="wrapper"> 
+		  <h1 style="color:Red;">Sambala Foundation</h1>
+		   <div class="topnav">
+	 		 <input type="text" placeholder="Search..">
+			</div> 
+
+		  <nav class="main-menu" id="myTopnav">
+
+		  	<ul>
+			  <li><a class="active" href="index.html">Home</a></li>
+			 
+			    <div class="dropdown">
+			    <button class="dropbtn">Pages 
+			      <i class="fa fa-caret-down"></i>
+			    </button>
+			    <div class="dropdown-content">
+			      <a href="Gallery.html">Gallery</a>
+			      <a href="event.html">Events</a>
+			      <a href="Partners.html">Partners</a>
+			      <a href="Feedback.html">Feedback</a>
+			    </div>
+	  		  </div> 
+			   <a href="project-program.html">Projects and Programs</a>
+			  <a href="what-we-do.html">What we do?</a>
+			  <div class="dropdown">
+			    <button class="dropbtn">Messages 
+			      <i class="fa fa-caret-down"></i>
+			    </button>
+			    <div class="dropdown-content">
+			      <a href="founder-message.html">Founder Message</a>
+			      <a href="MD-message.html">M.D Message</a>
+			    </div>
+	  		  </div> 
+			  <div class="dropdown">
+			    <button class="dropbtn">About Us 
+			      <i class="fa fa-caret-down"></i>
+			    </button>
+			    <div class="dropdown-content">
+			      <a href="mission-vision.html">Mission & Vision</a>
+			      <a href="Our-Team.html">Our Team</a>
+			    </div>
+	  		  </div> 
+	  		  <a href="Contact-us.html">Contact</a>
+	  		  <a href="login.html">LogIn</a>
+	  		  <!-- Calling function to call javascript to make responsive navbar -->
+	  		  <a href="javascript:void(0);" style="font-size:15px;" class="icon" onclick="myFunction()">&#9776;</a>
+	  		   <!-- End function to call javascript to make responsive navbar -->
+			</ul>
+		  </nav>
+		    <!--  javascript function to make responsive navbar -->
+				<script>
+				function myFunction() {
+				  var x = document.getElementById("myTopnav");
+				  if (x.className === "main-menu") {
+				    x.className += " responsive";
+				  } else {
+				    x.className = "main-menu";
+				  }
+				}
+				</script>
+				<!-- =================================================================================================================-->
+				<!-- =================================================================================================================-->
+		  <br><br><br><br>
+		   <div id="comments">
+        <h2 style="color:Lightgrey;"><center>Our Partners</center></h2>
+        <ul>
+          <li style="background-color:lightgrey;">
+            <article >
+              <header>
+                <figure class="avatar" style="border-style: none;"><img src="images/CG.PNG" alt=""></figure>
+                <address>
+                 <a style="color:blue;" >Chaudhary Group (CG)</a>
+                </address>
+              </header>
+              <div class="comcont">
+                <p >One of the most popular and leading groups of organizations in Nepal is the Chaudhary Group, popularly known as CG. Currently led and managed by Binod Chaudhary, the first billionaire of Nepal, the group has been present in the country for more than 136 years and during this period, it has earned itself the reputation of being biggest company of Nepal. Owning over forty five companies, sixty brands in thirty countries and giving job to over six thousand employees, CG has been able to cover Food and Beverages, Education, Real Estate, Financial Services, Hydro Power, Infrastructure, Telecom, Cement, Hotels and Resorts, Biotech, Electronics and White goods, Energy, FMCG, Realty to Retail, etc. as its core area of business.</p>
+              </div>
+            </article><br><br><br>
+          </li>
+          <li style="background-color:lightgrey;" >
+            <article>
+              <header>
+                <figure class="avatar" style="border-style: none;"><img src="images/Khetan.PNG" alt=""></figure>
+                <address>
+                 <a style="color:blue;">Khetan Group</a>
+                </address>
+              </header>
+              <div class="comcont">
+                <p>Khetan Group was started in Nepal by Shree Purna Lam Bihari Lal Khetan. The group has succeed in finding itself a niche in Nepali business and economic field with its diverse interest and involvement in the field of mining, fast moving consumer goods like beverages, food stuff and service industries like insurance, banking/financial services, telecommunications, IT, real estate, investments, energy, etc<br>
+				It established Gorkha Brewery Private Limited in 1989, and Bottlers Nepal Limited (BNL) in 1979. Also, keeping in mind the environmental protection, the fully automatic Effluent Treatment Plants (ETP) was established in both Bottlers Nepal Limited’s plants since 2001. It also supports Free Health Check-up Clinic at Bharatpur in association with the local community.</p>
+              </div><br>
+            </article>
+          </li>
+          <li style="background-color:lightgrey;">
+            <article>
+              <header>
+                <figure class="avatar" style="border-style: none;"><img src="images/Sharada.PNG" alt=""></figure>
+                <address>
+                 <a style="color:blue;">Sharada Group</a>
+                </address>
+              </header>
+              <div class="comcont">
+                <p>With an annual turnover of more than US $ 150 million, Sharda Group has been able to earn itself the reputation of being one of the top business groups in Nepal. Since 1970, the group that has been involved in production and marketing of carpet and wool, cement, flour and rice, homecare, noodles and snacks, oil and ghee, oxygen, plastic, rubber and footwear, soaps and chemicals and wires and cables. The group started its business with garment industries but it was the establishment of a rice mill at Lahan in 1948 which gave it the real success.<br>The Group also owns Pioneer Carpet Industries as a solo project and Shangrila Housing, Bajra Shangrila Residency, Infratech and Shivam Cement Industries as joint ventures. Sharda Group is involved in the export-import of a wide variety of products like Copper and Brass Scrap, Zinc Ingot, Zinc Dross, M.S. Plates, Rice, Silk, Betel Nuts, Food Products, Chemicals and other miscellaneous items under the company name of Pioneer Marketing. It also has Food and Beverage Division of the company which is engaged in imports of products like Milk Powder, OKI brand Sunflower Oil, Chocolates, Betel Nuts and Dates.</p>
+              </div><br><br>
+            </article>
+          </li>
+          <li style="background-color:lightgrey;">
+            <article>
+              <header>
+                <figure class="avatar" style="border-style: none;"><img src="images/voith.PNG" alt=""></figure>
+                <address>
+                 <a style="color:blue;">Vaidya’s Organizations</a>
+                </address>
+              </header>
+              <div class="comcont">
+                <p>One of the most dynamic business houses in Nepal, Vaidya’s Organization of Industries and Trading Houses or VOITH represents a wide range of integrated trading houses, industrial enterprises, services, construction activities and educational academics. Some of the companies operated by VOITH are United Traders Syndicate (UTS) Private Limited, Subirasa Incorporated Private Limited, Sujaki Incorporated Private Limited, Vijaya Motors Private Limited and Agni Incorporated Private Limited for automobiles, Guranse Tea Estate Private Limited, Mai-Ilam Guranse Tea Industries Private Limited and Nirvana Tea Processing and Packaging Private Limited for tea production and packaging, Agri Breeders Private Limited and Nepal Wellhope Agri-Tech Private Limited for dealing with agri-products, Nepal Singha Construction Private Limited, NeKo Alliance and Tawache Brick and Tile Industry for construction and Vijaya Academy of Health and Science for education.</p>
+              </div><br><br>
+            </article>
+          </li>
+         </ul>
+      </div>
+
+
+			<footer>
+		
+				<footer class="footer-distributed">
+
+					<div class="footer-left">
+
+						<h3>Sambala<span>Foundation</span></h3>
+
+						<p class="footer-links">
+							<a class="" href="index.html">Home</a>
+							·
+							<a href="Partners.html">Partners</a>
+							.
+			     			<a href="Feedback.html">Feedback</a>
+							·
+							<a href="login.html">LogIn</a>
+							·
+							<a href="Contact-us.html">Contact</a>
+							·
+							
+						</p>
+
+						<p class="footer-company-name">Sambala Foundation &copy; 2019</p>
+					</div>
+
+					<div class="footer-center">
+
+						<div>
+							<i class="fa fa-map-marker"></i>
+							<p><span>Chabahil</span> Kathmandu, Nepal</p>
+						</div>
+
+						<div>
+							<i class="fa fa-phone"></i>
+							<p>+977 9874 12365</p>
+						</div>
+
+						<div>
+							<i class="fa fa-envelope"></i>
+							<p><a href="mailto:Sambalafoundation@company.com">Sambalafoundation@company.com</a></p>
+						</div>
+
+					</div>
+
+					<div class="footer-right">
+
+						<p class="footer-company-about">
+							<span>About the company</span>
+							Sambala Foundation was established in 1995 by Nepal-kadel Group for philanthropic activities. From the beginning our business and social commitments have always been mutually reinforcing and has always featured as an integral part of our business.
+						</p>
+
+						<div class="footer-icons">
+
+							<a href="https://www.facebook.com"><i class="fa fa-facebook"></i></a>
+							<a href="https://twitter.com"><i class="fa fa-twitter"></i></a>
+							<a href="https://www.linkedin.com"><i class="fa fa-linkedin"></i></a>
+							<a href="https://github.com/"><i class="fa fa-github"></i></a>
+
+
+						</div>
+
+					</div>
+
+				</footer>
+			</footer>
+		</div>
+	</div>
+</body>
+</html>
